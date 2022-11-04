@@ -6,7 +6,8 @@ function App() {
    * init a state
    * time : name of state => can custom with any name you like
    * setTime: a function use to update `time`, UI use this state will update automate
-   * useState: basic hook
+   * 
+   * useState: basic hook @params: initialState for state - optional
    */
   const [time, setTime] = useState(0);
 
